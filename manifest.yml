@@ -1,0 +1,9 @@
+kind: ExternalService
+name: web-app
+spec:
+  image: front:${TRAVIS_COMMIT}
+  allow_http: false
+  domains:
+    - name: davodfakor.ir
+  resources:
+    memory: 200Mi
