@@ -362,6 +362,9 @@ a,a:hover, .overlay, img, .form-control,  .form-control:hover, button{
 /* ==========================================================================
    Header Section
    ========================================================================== */
+.slicknav_menu .slicknav_no-text{
+    margin-top: 25px;
+}
 .header-section{
     background-color: transparent;
     width: 100%;
