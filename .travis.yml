@@ -13,4 +13,4 @@ script:
   - echo $TRAVIS_COMMIT  
   - COLLECT_ERROR=True fandogh login --username=$FANDOGH_USERNAME --password=$FANDOGH_PASSWORD
   - fandogh image publish --version=$TRAVIS_COMMIT || travis_terminate 1
-  - if [ $TRAVIS_BRANCH = 'master' ]; then fandogh service apply -f manifest.yml -p TRAVIS_COMMIT
+  - if [ $TRAVIS_BRANCH = 'master' ]; then fandogh service apply -f manifest.yml -p TRAVIS_COMMIT=$TRAVIS_COMMIT
