@@ -4,6 +4,6 @@ spec:
   image: portfolio:${TRAVIS_COMMIT}
   allow_http: false
   domains:
-     davodfakor.ir
+    - name: davodfakor.ir
   resources:
     memory: 200Mi
