@@ -1774,14 +1774,7 @@ ul.nav > li > a.active{
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
 }
-.plane.main.blue .circle{
-    box-shadow: 0 0 60px #00adef, inset 0 0 60px #00adef;
-}
-  .plane.main.blue .circle::before, .plane.main.blue .circle::after {
-    background: #00adef;
-    box-shadow: 0 0 60px 2px #00adef;
 
-  }
   .plane.main .circle::before, .plane.main .circle::after {
     content: "";
     display: block;
@@ -1794,7 +1787,8 @@ ul.nav > li > a.active{
     width: 10%;
     height: 10%;
     border-radius: 100%;
-    
+    background: #30ed5a;
+    box-shadow: 0 0 60px 2px #30ed5a;
     box-sizing: border-box;
     
   }
@@ -1847,4 +1841,12 @@ ul.nav > li > a.active{
       -webkit-transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
               transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);
     }
+  }
+.plane.main.blue .circle{
+    box-shadow: 0 0 60px #00adef, inset 0 0 60px #00adef;
+}
+  .plane.main.blue .circle::before, .plane.main.blue .circle::after {
+    background: #00adef;
+    box-shadow: 0 0 60px 2px #00adef;
+
   }
